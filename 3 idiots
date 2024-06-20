@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        int x1,y1,x2,y2;
+        x1=a.nextInt();
+        y1=a.nextInt();
+        x2=a.nextInt();
+        y2=a.nextInt();
+        float r1=(float)(x1+x2)/2;
+        float r2=(float)(y1+y2)/2;
+        System.out.printf("Binoy's house is located at ("+r1+","+r2+")");
+                          a.close();
+    }
+}
+Input (stdin)
+
+2
+4
+10
+15
+Your Output (stdout)
+
+Binoy's house is located at (6.0,9.5)
+Expected Output
+
+Binoy's house is located at (6.0,9.5)

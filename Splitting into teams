@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner a=new Scanner(System.in);
+        int n,t;
+        n=a.nextInt();
+        t=a.nextInt();
+        int r1=n/t;
+        int r2=n%t;
+        System.out.println("The number of students in each team is "+r1+" and left out is "+r2);
+        a.close();
+    }
+}
+Input (stdin)
+
+60
+8
+Your Output (stdout)
+
+The number of students in each team is 7 and left out is 4
+Expected Output
+
+The number of students in each team is 7 and left out is 4

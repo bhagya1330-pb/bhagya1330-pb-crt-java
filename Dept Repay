@@ -1,0 +1,39 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner a=new Scanner(System.in);
+        int p,t,r;
+        p=a.nextInt();
+        t=a.nextInt();
+        r=a.nextInt();
+        float r1=(float)(p*t*r)/100;
+        float r2=(float)p+r1;
+        float r3=(float)r1*2/100;
+        float r4=(float)r2-r3;
+        System.out.printf("%.2f\n",r1);
+        System.out.printf("%.2f\n",r2);
+        System.out.printf("%.2f\n",r3);
+        System.out.printf("%.2f\n",r4);
+        a.close();
+    }
+}
+Input (stdin)
+
+100
+1
+10
+Your Output (stdout)
+
+10.00
+110.00
+0.20
+109.80
+Expected Output
+
+10.00
+110.00
+0.20
+109.80

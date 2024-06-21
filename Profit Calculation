@@ -1,0 +1,27 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args)
+    {
+    Scanner s=new Scanner(System.in);
+        int x,a,b;
+        x=s.nextInt();
+        a=s.nextInt();
+        b=s.nextInt();
+        int r1=(x*a)-(100+(x*b));
+        System.out.println(r1);
+    }
+}
+Input (stdin)
+
+1000
+2
+1
+Your Output (stdout)
+
+900
+Expected Output
+
+900
